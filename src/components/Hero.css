@@ -1,0 +1,31 @@
+.hero-container {
+  padding: 5rem 1rem;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 64rem;
+  margin: 0 auto;
+  gap: 2rem; /* Add some space between the image and text */
+}
+
+.hero-image-container {
+  flex: 1.5; /* The image container will take up 1.5 parts of the space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Optional: add some rounded corners */
+}
+
+.hero-text-container {
+  flex: 1; /* The text container will take up 1 part of the space */
+  text-align: left; /* Align text to the left */
+}
+
